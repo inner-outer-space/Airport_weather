@@ -17,7 +17,7 @@ st.markdown("<h1 style='text-align: center; font-size: 40px; font-family: Arial;
 
 # Banner image
 img = Image.open("Airplane_banner.png")
-st.image(img, width=900)
+st.image(img, use_column_width=True)
 
 
 
